@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>INTRODUCTION FLASK PYTHON</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="stylesheet" href="../static/style.css">-->
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');  
+	 body {  
+	   font-family: 'Open Sans', sans-serif;  
+	   margin: 0;  
+	  }  
+	  a {  
+	   text-decoration: none;  
+	   color: #000;  
+	  }  
+	  a:hover{  
+	    color: rgb(179, 179, 179);  
+	  }  
+	  .site-header {   
+	   border-bottom: 1px solid #ccc;  
+	   padding: .5em 1em;  
+	   display: flex;  
+	   justify-content: space-between;  
+	  }  
+	  .site-identity h1 {  
+	   font-size: 1.5em;  
+	   margin: .6em 0;  
+	   display: inline-block;  
+	  }  
+	  .site-navigation ul,   
+	  .site-navigation li {  
+	   margin: 0;   
+	   padding: 0;  
+	  }  
+	  .site-navigation li {  
+	   display: inline-block;  
+	   margin: 1.4em 1em 1em 1em;  
+	  }  
+	  .oke {
+	  	margin: 0;
+	  	padding: 0;
+	  }
+	  	.a {
+	  		font-size: 16;
+	  		font-color: red;
+	  	}
+	
+	</style>
+</head>
+<body>
+	<!--<header>
+		<h1>FLASK INTRODUCTION</h1>
+		<div>
+			<p>dibawah gweh contoh variable</p>
+			<p>Number : <strong>{{nilai}}</strong></p>
+		</div>
+		<div>
+		{% for n in nam: %}
+		<li>{{n}}</li>
+		{% endfor %}
+		</div>
+		<div>
+		{% if akun == "gacor": %}
+		<p>Masook diekk</p>
+		{%elif akun =="tupo"%}
+		<p>Lumayan</p>
+		{% else %}
+		<p>wes wes ramasok</p>
+		{% endif %}
+		<form>
+			<label for='fname'>Apa:</label><br>
+			<input type='text' id='fname' name='fname'>
+			<input type='submit' value='submit'>
+		</form>
+		</div>-->
+	<header class="site-header">
+		<div class="site-identity">  
+      		<h1><a href="#">Flask Introduction</a></h1>  
+     	</div>   
+		<nav class="site-navigation">  
+      		<ul class="nav">  
+       			<li><a href="#">Home</a></li>   
+       			<li><a href="#">About</a></li>   
+       			<li><a href="#">Blog</a></li>  
+       			<li><a href="#">Contact</a></li>   
+      		</ul>  
+     	</nav>
+     	</div>
+    </header>
+    <div class="oke">
+		<p>Berikut adalah isi dari Contoh perintah <br>Flask</p>
+		<ul class="nav">
+			<li><a href="http://127.0.0.1:5000/var">Variable</a> <==Click onthere<p>Berikut adalah Contoh variable flask dari file app.py ke file index.html menggunakan { kurung kurawal }</p></li>
+			<li><a href="http://127.0.0.1:5000/loop">Loop</a> <==Click onthere<p>Berikut adalah Contoh looping flask </p></li>
+			<li><a href="http://127.0.0.1:5000/lese">If Else</a> <==Click onthere<p>Berikut adalah Contoh if else menggunakan flask <br>Karena variable akun string berisi "gacor" outputnya menjadi True masook diekk</p></li>
+			<li><a href="http://127.0.0.1:5000/parsinstring/oke">Parsing url string</a> <==Click onthere<p>Berikut adalah parsing url string. Nilai oke bisa anda ganti oke koe elek bisa :v</p></li>
+    </div>
+</body>
+</html>

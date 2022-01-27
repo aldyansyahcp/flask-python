@@ -1,0 +1,13 @@
+{% extends "main_layout.html" %}
+{% block content %}
+<div>
+	<center><h3>Else if</h3></center>
+	{% if akun == "gacor": %}
+	<p>Masook diekk</p>
+	{% elif akun == "tupo": %}
+	<p>Lumayann</p>
+	{% else: %}
+	<p>Wes wess ramasok</p>
+	{% endif %}
+</div>
+{% endblock %}
