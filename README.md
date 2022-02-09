@@ -3,11 +3,11 @@
 '''
 ## Installation
 $pip install flask
-
+```
 $git clone https://github.com/aldyansyahcp/flask-python
 $cd flask-python
 $python app.py
-'''
+```
 ## Here's the command
 ```
 
